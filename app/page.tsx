@@ -91,6 +91,6 @@
 // }
   export default function Home() {
             return (
-                    <div>Hello World from Sharmeen Fatima</div>
+                    <div style = {{color: "blue", background: "pink", fontSize: "50px", borderRadius:"10px"}}>Hello World from Sharmeen Fatima</div>
             )
     }
