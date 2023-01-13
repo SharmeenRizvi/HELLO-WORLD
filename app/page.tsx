@@ -1,6 +1,7 @@
 // import Image from 'next/image'
 // import { Inter } from '@next/font/google'
 // import styles from './page.module.css'
+import Link from "next/link";
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -89,8 +90,21 @@
 //     </main>
 //   )
 // }
-  export default function Home() {
-            return (
-                    <div style = {{color: "blue", background: "pink", fontSize: "50px", borderRadius:"10px"}}>Hello World from Sharmeen Fatima</div>
-            )
-    }
+export default function Home() {
+  return (
+    <div>
+      <div
+        style={{
+          color: "white",
+          background: "purple",
+          fontSize: "50px",
+          borderRadius: "10px",
+        }}
+      >
+        {" "}
+        Hello World from Syeda Sharmeen Fatima
+      </div>
+      <link href="./firstfolder"> First Folder </link>
+    </div>
+  );
+}
