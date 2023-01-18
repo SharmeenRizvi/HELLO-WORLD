@@ -92,7 +92,7 @@ import Link from "next/link";
 // }
 export default function Home() {
   return (
-    <div>
+      <>
       <div
         style={{
           color: "white",
@@ -102,9 +102,13 @@ export default function Home() {
         }}
       >
         {" "}
-        Hello World from Syeda Sharmeen Fatima
+        Hello World  from  Syeda Sharmeen Fatima
       </div>
-      <link href="./firstfolder"> First Folder </link>
-    </div>
+      <br/>
+    <br/>
+    <br/>
+      <Link href="./firstfolder"> Go to First Folder </Link>
+      </>
+     
   );
 }
